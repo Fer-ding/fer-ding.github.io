@@ -494,7 +494,96 @@
 <p><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2Fda9d584f3a0d4982b30c88b9ab1df1ef268bdb32.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1619171066&t=622dd9e093aa3d8dca5f39beb64b9894" alt="typora.jpg"></p>
 </li>
 </ul>
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><p>\<a target="_blank" rel="noopener" href="http://www.baidu.com/">http://www.baidu.com\</a></p>
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><ol>
+<li>直接上连接，例如： http://www.baidu.com</li>
+<li>快捷键Ctrl/command+k，[自定义内容](超链接地址)，例如：[百度一下](http://www.baidu.com)</li>
+</ol>
+<p><strong>超链接在Typora显示形式是：</strong></p>
+<ol>
+<li><a target="_blank" rel="noopener" href="http://www.baidu.com/">http://www.baidu.com</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.baidu.com/">百度一下</a></li>
+</ol>
+<h3 id="代码区域"><a href="#代码区域" class="headerlink" title="代码区域"></a>代码区域</h3><p>Typora支持对多种语言的代码区域进行<strong>语法高亮</strong>。这些语言可以说是<strong>涵盖了绝大部分经常使用的编程语言</strong>，包括C++，Python，MATLAB，甚至包含spreadsheet（也就是Excel电子表格）。用Typora记编程笔记，看起来一清二楚。如果设置代码语言为flow，那么可以直接画出一个流程图；还可以使用相应的方法画出时序图等图表。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class hello &#123;</span><br><span class="line">  public static void main(String[] args) &#123;</span><br><span class="line">    System.out.println(&quot;Hello，World！&quot;);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>表格的使用</p>
+<ol>
+<li>快捷键，mac使用option+command+T，也就是window的alt+ctrl+T，会自动弹出设置行与列的设置框，如图</li>
+</ol>
+<img src="/2021/04/08/Typora%E8%AF%AD%E6%B3%95/image-table.png" alt="table" style="zoom:50%;">
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<ol start="2">
+<li>|国籍|省份|市区|</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>国籍</th>
+<th>省份</th>
+<th>市区</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><p>- [ ] 不勾选</p>
+<p>- [x] 勾选</p>
+<p>注：<code>-</code>右边有一个空格，[ ]之间也有一个空格, 文字前面也有一个空格</p>
+<ul>
+<li><input checked disabled type="checkbox"> JAVA</li>
+<li><input disabled type="checkbox"> C</li>
+<li><input disabled type="checkbox"> C++</li>
+</ul>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>使用* + - 加一个空格都可以创建一个无序列表</p>
+<ul>
+<li>AAA</li>
+<li>BBB</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>任意数字开始+空格创建有序列表</p>
+<ol>
+<li>AAA</li>
+<li>BBB</li>
+</ol>
+<h3 id="数字表达式"><a href="#数字表达式" class="headerlink" title="数字表达式"></a>数字表达式</h3><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。根据需要加载 Mathjax 对数学公式进行渲染。</p>
+<p>按下 <code>$$</code>，然后按下回车键，即可进行数学公式的编辑<br>$$<br>\mathbf{V}_1\times\mathbf{V}_2 = \mathbf{X}_3<br>$$</p>
+<h3 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h3><p>***或者—</p>
+<hr>
+<hr>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>&gt;符号+空格</p>
+<blockquote>
+<p>与天斗，其乐无穷！与地斗，其乐无穷！与人斗，其乐无穷！</p>
+</blockquote>
+<h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><p><code>文字\[^脚注]</code></p>
+<h3 id="表情符号"><a href="#表情符号" class="headerlink" title="表情符号"></a>表情符号</h3><p><code>英文状态下的引号，输入字母自动显示表情符号</code></p>
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>[toc] + enter</p>
+<h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><p>ctrl+n</p>
 
                 
             </div>
